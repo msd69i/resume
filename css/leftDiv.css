@@ -1,0 +1,118 @@
+body{
+  margin: 0;
+}
+
+.mainDiv{
+  /* margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px; */
+  display: flex;
+
+}
+.leftDiv{
+  display: inline-block;
+  width:35%;
+    background-color: #e7e6e1;
+}
+.rightDiv{
+  display: inline-block;
+  width: 64.9999%;
+  background-color: #f7f6e7;
+}
+h3{ color: #1687a7;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 1em;
+    font-family: 'Asap Condensed', sans-serif;
+}
+
+hr{
+margin-inline-start: 5%;
+margin-inline-end: 5%;
+}
+
+.tHead{
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.cvHeading{
+  font-size: 4em;
+  margin-left: 8%;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 200;
+}
+.profileImg{
+  max-width: 65%;
+  height: auto;
+  position: relative;
+  left: 30%;
+  top: 20px;
+  margin-bottom: 8%;
+}
+.leftpane-paragraph{
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: 'Asap Condensed', sans-serif;
+  font-size: 95%;
+  line-height: 1.5;
+}
+.email{
+  color: blue;
+  text-decoration: underline;
+}
+
+.skillSet {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 15%;
+  font-family: 'Asap Condensed', sans-serif;
+  font-size: 95%;
+}
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #c7cfb7;
+  margin-left: 0;
+  margin-right: 5%;
+  margin-top: 5%
+}
+
+.skills {
+  font-size: 12px;
+  text-align: left; /* Right-align text */
+  padding: 3px;
+  color: white; /* White text color */
+}
+
+.msOffice {width: 90%; background-color: #007944;} /* Green */
+.adobe {width: 85%; background-color: #007944;} /* Blue */
+.socialMedia {width: 90%; background-color: #007944;} /* Red */
+.gSuite {width: 85%; background-color: #007944;}  /* Dark Grey */
+.typing{width: 75%; background-color: #007944;}
+
+.sectionHeading{display: flex;}
+.bodyHeading{margin-left: 8%;font-family: 'Asap Condensed', sans-serif;font-size: 1em;font-weight: 800;}
+.summeryBodyTxt{margin:15px 0 10px 8%;width:40%; font-family: 'Comfortaa', cursive; font-size: 14px;}
+.listBodyTxt{margin:15px 5% 0px 8%;font-family: 'Comfortaa', cursive; font-size: 14px;}
+.educationBodyHeading{margin-left: 8%;font-family: 'Asap Condensed', sans-serif;font-size: 1em;font-weight: 800;}
+.educationBodyTxt{margin:10px 0 10px 8%;width:50%; font-family: 'Comfortaa', cursive; font-size: 14px;}
+.computerBodyHeading{margin:10px 0 10px 8%;width: 25%;font-family: 'Asap Condensed', sans-serif;font-size: 1em;font-weight: 800;}
+.computerBodyTxt{margin:10px 8% 10px 8%;width:65%; font-family: 'Comfortaa', cursive; font-size: 14px; }
+.personalBodyHeading{margin:10px 0 0 8%;width: 25%;font-family: 'Asap Condensed', sans-serif;font-size: 1em;font-weight: 800;}
+.personalBodyTxt{margin:10px 8% 0 8%;width:65%; font-family: 'Comfortaa', cursive; font-size: 14px; fon}
+
+li{
+  margin: 0 auto 0 10%;
+  font-family: 'Asap Condensed', sans-serif;
+}
+
+.communications {width: 90%; background-color: #1687a7;} /* Green */
+.TimeManagement {width: 90%; background-color: #1687a7;} /* Blue */
+.Multitasking {width: 75%; background-color: #1687a7;} /* Red */
+.DecisionMaking {width: 75%; background-color: #1687a7;}  /* Dark Grey */
+.pressureHandling{width: 80%; background-color: #1687a7;}
